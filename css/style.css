@@ -1,0 +1,336 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+
+.dhead{width: 100%;
+height: 50px;
+background-color: rgb(0,216,0, 0.5) ; position: fixed;z-index: 10; }
+
+/* <--head--> */
+
+.contain{display: inline-block;margin-right: 45px;}
+.headcontent{float: right; }
+.dhome{margin:15px 3px;cursor: pointer; position: relative;text-transform: capitalize;font-weight: 600;font-family: cursive;}
+.dhom{height: 5px;margin: 2px 0px;} 
+.content{opacity: 0;cursor: pointer;position: absolute;
+list-style: none;border: 3px solid burlywood;background-color: aliceblue;
+margin: 10px 0px; padding: 10px 10px;font-size: larger;width: 200px;line-height: 50px;}
+.ad{position: relative;}
+.ad::after{position: absolute;content: "";width: 0;height: 0;width: 0;bottom: 0;left: 0;background-color: burlywood;opacity: 0;}
+.ad:hover::after{width: 100%;height: 6%;opacity: 1;transition: 1s;}
+.dropdown:hover .content{opacity: 1;}
+
+.dhome::after{position: absolute;
+      content: "";
+      width: 0;
+      height: 0;
+      bottom: 0;left: 0;background-color: rgb(197, 142, 70);opacity: 0;}
+.dhome:hover::after {height:15%;width:100%;opacity: 1;transition: 1s;}
+.thome{border-radius: 20px;float: inline-start;margin: 10px -515px; background-color: #f0f3eb;}
+.ihome{font-size: 25px;color: rgb(12, 12, 12);float: left;margin: 12px -560px;} 
+.i2home{font-size: larger;}
+.ihome2{font-size: 15px;color: rgb(15, 16, 16);float: left;margin: 18px -500px;color: black;}
+
+/* <!------------------------------------------------------> */
+/* section1 */
+.d2:hover::after{width: 100%;height: 100%;opacity: 0.8;transition: 3s;} 
+.parent{position: relative; width: 100%;height: 100vh; }
+.img1{width: 100%;
+       height: 100%; 
+      position:absolute; 
+      opacity: 0.5; 
+} 
+ 
+.overlay{width: 100%;height: 100%;background-color: rgba(184, 240, 158, 0.4);position: absolute ;}
+h1{margin: 15px 0px ;}
+p{word-spacing: 8px;font-size: medium;}
+.head1{ color:rgb(11, 12, 11);width: 1000px; ;padding: 15px 0px;
+position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);
+text-align: center;font-size: 35px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif }
+button{width: 150px;height: 50px;border-radius: 10px;margin: -2px;font-size: 18px;text-transform: capitalize; }
+.bt2{color: aliceblue; background-color: green;}
+.bt1:hover{opacity: 0.5;}
+.bt2:hover{opacity: 0.5;}
+
+/* <------------------------> */
+/* <!------second paper----------- */
+.webmain{width: 100%;height: 100vh;}
+.hweb{text-align: center;font-size: 50px; text-transform: capitalize;line-height: 200px;}
+.pweb{width: 100px;height: 2px; background-color: rgb(21, 168, 21);margin: -80px 45%;}
+
+.dwebcontainer{width: 90%;height: 400px;margin: 100px 10%;}
+.webparent{width: 100%;}
+.webcontent1{width: 300px;height: 240px;border:4px solid rgb(161, 106, 34) ;border-radius: 10px;float: left;margin: 40px;}
+
+.iweb{font-size: xx-large;color: chartreuse;margin:20px 45%;}
+.fullyweb{font-size: xx-large;text-align: center;}
+.serviceweb{font-size:medium;text-transform: capitalize;color: darkolivegreen;padding: 5px 30px;font-weight: 900;word-spacing: 1px; }
+.positiveweb{font-size: medium;text-transform: capitalize;color: darkolivegreen;font-weight: 900;text-align: center;word-spacing: 1px;margin-right: 15px;}
+.readweb{text-align: center;font-size: large;color: chartreuse;text-transform: capitalize;cursor: pointer;}
+
+.webcontent1:hover .iweb{color: rgb(54, 73, 1);}
+.webcontent1:hover  .fullyweb{color: rgb(109, 46, 15);}
+.webcontent1:hover   .serviceweb{color: rgb(224, 118, 46);}
+.webcontent1:hover  .positiveweb{color: rgb(224, 118, 46);}
+.webcontent1:hover .readweb{color: rgb(54, 73, 1);}
+
+.webcontent1{position: relative;}
+.webcontent1::after{position: absolute;content: ""; width: 0;height: 0;left: 0;top: 0;background-color: rgb(81, 221, 76);opacity: 0;}
+.webcontent1:hover::after{width: 100%;height: 100%;opacity: 0.4;transition: 1s;}
+
+.readweb {
+  position: relative; 
+  z-index: 7;
+}
+.readweb::after {
+  content: "";
+  position: absolute; 
+  cursor: pointer;
+  opacity: 0;
+}
+.readweb:hover::after{ cursor: pointer;opacity: 1;}
+
+.fspr{z-index: 6;position: relative;}
+.fspr::after{content: "";position: absolute;z-index: 6;}
+.fspr:hover::after{z-index: 6;}
+
+/* <!------third paper----------- */
+
+.featuremain{width: 100%;height: 100vh;background-color: bisque;}
+.hwork{text-align: center;font-size: 50px; text-transform: capitalize;line-height: 100px;}
+.pwork{width: 100px;height: 3px; background-color: rgb(21, 168, 21);margin: -30px 45%;}
+
+
+.dworkcontainer{width: 90%;height: 200px;margin: 60px auto;}
+.workparent{width: 100%;}
+
+.dworkcontainer2{width: 90%;height: 200px;margin: -20px auto;}
+.workparent2{width: 100%;}
+
+.imgwork{width: 300px;height: 205px;float: left;margin:0px 41px;position: relative;}
+.imgwork1{width: 300px;height: 205px;float: left;margin:0px 41px;}
+
+.imgwork2{width: 300px;height: 205px;float: left;margin:0px 41px;}
+.imgwork22{width: 300px;height: 205px;float: left;margin:0px 41px;}
+
+.mainwork{position: absolute; width: 300px;height: 205px;background-color:rgba(0,0,0, 0.5);margin: 0px 40px;opacity: 0;}
+.workcontent1{ position: absolute;  text-align: center;font-size: xx-large; color: antiquewhite;margin: 0px 70px;padding: 30px 0px;}
+.workcontent11{position: absolute; color: aliceblue;margin:85px 80px;font-weight: 900;text-transform: capitalize;width: 150px;height: 30px;}
+.workcontent111{position: absolute; color: aliceblue;margin:130px 110px;font-size: 35px;cursor: pointer;}
+.workcontent1111{position: absolute; color: aliceblue;margin:-35px 39px;font-size: 35px;cursor: pointer;}
+
+.imgwork2:hover .mainwork{opacity: 1;}
+.imgwork:hover .mainwork{opacity: 1;}
+
+/* </////////---------------------------------------------------------------------------- */
+/* < fourth paper */
+.offerview{width: 100%;height: 100vh;}
+.hoffer{text-align: center;font-size: 50px; text-transform: capitalize;padding: 100px;}
+.poffer{width: 100px;height: 2px; background-color: rgb(21, 168, 21);margin: -108px 47%;}
+
+.doffercontainer{width: 90%;height: 210px;margin: 150px auto;}
+.offerparent{width: 100%;}
+
+.doffer{width: 320px;height: 210px;border: 4px solid burlywood;border-radius: 10px; float: left;margin:0px 55px;position: relative;}
+.iconoffer{font-size: xx-large;color: green;padding: 16px 10px;}
+.hhoffer{color: rgb(31, 48, 5);font-size: 23px;font-weight: 900;word-spacing: normal;}
+.ppoffer{color: rgb(13, 172, 52);padding:10px 0px;font-weight: 900;word-spacing: normal;}
+.dofferd{margin: -25px 44px;} 
+.doffer::after{position: absolute;content: "";width:0; height: 0;left: 0;top: 0;background-color: greenyellow;opacity: 0;}
+.doffer:hover::after{width: 100%;height: 100%;opacity: 0.4;transition: 1s;}
+
+.doffer:hover .hhoffer{color: rgb(204, 134, 42);}
+.doffer:hover .ppoffer{color: rgb(46, 27, 1);}
+.doffer:hover .iconoffer{color: rgb(6, 226, 17);}
+
+.doffercontainer2{width: 90%;height: 200px;margin: -120px auto;}
+
+/* <!-========================================================================= */
+ /* <------fifth paper-------- */
+
+.whyview{width: 100%;height: 100vh;}
+.divcontainwhy{margin: 350px 0px;}
+.mainwhy{background-color: antiquewhite;}
+.hchoose{font-size: 40px;text-transform: capitalize;}
+.pchoose{width: 70px;height: 2px; background-color: rgb(21, 168, 21);}
+.ppchoose{margin: 50px 0px;color: rgb(26, 226, 26);word-spacing: 1px;}
+.ulchoose{list-style: none; color: #d19337;line-height: 50px;font-size: large;}
+.ichoose{color: green;}
+
+.whychoose{margin: 200px 150px;}
+.photophoto{float: inline-end;display: inline;padding: 0px 150px;margin: -70px 0px;}
+.dcircle{width: 15px;height: 15px;border-radius: 15px;
+      background-color: rgb(65, 165, 70);display: inline-block;margin: 10px;}
+.dcircle1{width: 15px;height: 15px;border-radius: 15px;
+      background-color: rgb(151, 235, 155);display: inline-block;margin: 10px;}
+
+.dcirclemain{width: 340px;height: 100px;padding: 1px 100px;margin: auto;}
+
+.dcircle1:hover{background-color: rgb(67, 202, 49);}
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>..< */
+/* sixth paper */
+.divno{width: 100%;height:600px;}
+
+.photothin1{background-image:url(../images/papa.jpg) ;}
+
+.photothin1{width: 100%;height: 400px;position:absolute;margin:auto;background-attachment: fixed;}
+.divcolor1{width: 80%;height: 300px;margin: 0px 150px;position: relative;}
+.parentcolor1{width: 100%;position: absolute;}
+
+
+.hcolor00{font-size: 40px;color: rgb(168, 20, 20);padding: 0px 13px;}
+.hcolor11{font-size: 15px;color: #eb9812;text-align: center;font-weight: 900;}
+.hcolor22{font-size: 15px;font-weight: 900;color: #ec7d0e;line-height: 2px;margin: 0px -3px;}
+
+.color11{height: 300px;display: inline-block;padding: 140px 93px;}
+
+/* <------------------------------------ */
+/* seventh paper */
+
+.priceview{width: 100%;height: 100vh;}
+.pricingtable{text-align: center;text-transform: capitalize;font-size: 50px;}
+.pprices{width: 100px;height: 3px;background-color: green;margin: auto 47%;}
+
+.containerprice{width: 75%;height: 900px;margin: auto;padding: 30px 0px;}
+.pricet{width: 100%;height: 100%;}
+.pricet1{width: 300px;height: 370px;border: #d19337 solid 4px;border-radius: 10px;
+      float: left;margin: 30px;position: relative;}
+.iconpricetable{margin-left: 0px 6px;}
+
+.pricepolitical{font-size: large;text-align: center;padding: 15px;font-weight: 900;text-transform: capitalize;}
+.pricepolitical1{width: 100;height: 100px;border-radius: 100px;border: #99db87 solid 5px;margin:-25px auto;}
+.pricepolitical11{margin: auto;font-size: small;}
+.popr{font-weight: 900;font-size: xx-large;margin: -12px;}
+.popr1{font-weight: 900;margin: 15px -7px;}
+
+.contentpp{ width: 100px;height: 100px;margin: -80px 130px;}
+.divpopo{font-size: 9;font-weight: 100;text-align: center;margin: 50px 0px;}
+.bpopo{width: 150px;height: 30px;border-radius: 10px;border: #d19337 solid 2px;margin: 10px 0px;}
+
+.pricet1::after{position: absolute;content: "";width:100%;height: 0;top: 0;left: 0;
+      background-color: #99db87;opacity: 0;}
+.pricet1:hover::after{width: 100%;height: 100%;opacity: 0.4;transition: 1s;z-index: -1;}
+.pricet1:hover .pricepolitical{color: #d19337;}
+.pricet1:hover .pricepolitical1{border: #171817 solid 5px;}
+.bpopo{z-index: 5;}
+/* <----------------------------------------------------------------- */
+/* eighteenth paper */
+.phtot{margin:-350px auto;position: relative;
+      background-image: url(../images/cookies-with-faces.jpg);background-attachment: fixed;background-size: cover;}
+.phtot12{position: absolute;width: 200px;height:200px;margin:50px 50%;}
+.phtot123{width: 100px;height: 100px;border-radius: 100px;
+      position: absolute;background-image: url(../images/mike.jpeg);background-size: cover;}
+.imgphott{margin:0px 120px;width: 400px;}
+
+.phtot12oo{position: absolute;width: 200px;height: 200px;margin:50px 20%;}
+.phtot123oo{width: 100px;height: 100px;border-radius: 100px;
+      position: absolute;
+      background-image: url(../images/jamms.jpeg);background-size: cover;}
+.imgphottoo{margin:0px 120px;width: 400px;}
+
+.oo{color: #99db87;text-transform: capitalize;}
+.ooo{color: #43a02a;}
+.oooo{color: #071d01;margin: 50px -120px;font-weight: 900;text-transform: capitalize;font-size: large;}
+.ooo{margin: -15px 0px;text-transform: capitalize;}
+
+
+/* //////////////////////////////////nineteenth paper */
+
+.hteam{text-align: center;font-size: 50px; text-transform: capitalize; line-height:350px;}
+.pteam{width: 100px;height: 2px; background-color: #15a815;margin:-150px auto;}
+
+
+.team-container{width: 80%;margin:150px auto;padding: 50px 0px;}
+.i1{color:rgb(23, 23, 175);font-size: 30px; }
+.i2{color:rgb(190, 79, 116);font-size: 30px; }
+.i3{color: rgb(34, 190, 196);font-size: 30px;}
+
+.team-item{ float: left;
+         background-color: rgb(40, 182, 87);
+         width: 30%;
+         text-align: center;
+         padding:18px 14px;  
+         height: 350px;
+         border-radius: 10px;
+      position: relative;}
+.item2{margin: 0px 5%;}
+.team-image{ width:90%;margin: auto;height: 200px;position: relative;}
+.team-image  img { width: 100%; height: 100%;}
+.team-icons{  position: absolute; top: 0px;bottom: 0px; right: 0px;left: 0px;
+      background-color: rgba(0,0,0, 0.7) ;visibility: hidden;transition: 2s;opacity: 0;}
+.team-item:hover  .team-icons{visibility: visible;opacity: 0.8; }
+ .team-icons  i{display: block; width: 40px;height: 40px;background-color: rgb(128, 233, 154);
+       line-height: 40px;margin-left: auto;}
+ 
+.team-item::after{position: absolute;content: "";
+height: 0;width: 100%; top: 0;left: 0; background-color: rgb(176, 241, 25);opacity: 0;}
+
+.team-item:hover::after{height: 100%;
+                      width: 100%;  
+                      opacity: 0.4;
+                        transition: 1s;border-radius: 10px;}
+
+.team-item:hover .team-info  p {color: aliceblue;}
+.team-item:hover .team-info h1 {color: aqua;}  
+.pp2{margin-top: 20px;font-size: large;font-weight: 900;color: #331b01;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.hp2{margin-top: 30px;color: #282725;}
+
+/* /\<!--------\\\\\\\\\\\\---------------------------------------------------------------------------------> */
+/* teenth paper */
+.hpricenews{text-align: center;font-size: 50px; text-transform: capitalize; line-height:350px;}
+.ppricenewss{width: 100px;height: 2px; background-color: #15a815;margin:-150px auto;}
+
+.dpricenewstable{width: 80%;height:100vh; margin: 150px auto;} 
+.parentprice1{width: 100%;height: 100%;}
+
+.tableprice1{width: 350px;height: 500px;border: #d19337 solid 4px;border-radius: 10px;
+      float: right;margin: 15px;position: relative;}
+
+.imgpricetable{margin: 20px;border-radius: 10px;background-color: rgb(248, 246, 246);}
+.iconpricetable{margin-left: 55px;}
+.tom{font-size:large;font-weight: 900;text-transform: capitalize;}
+.markprice{font-size: medium;margin:5px 20px;font-size: 20px;}
+.markprice12{font-size: medium;margin:30px 80px;width: fit-content;
+      height: fit-content;color: #0f0e03;cursor: pointer;}
+.markprice1{word-spacing: normal;margin: 4px;width: 330px;height: fit-content;
+      margin:15px -45px;padding: 0px;font-weight: 800;color: #625e35;}
+
+.ft{margin: 10px;float: left;}
+.ftw{margin: 10px;float: left;}
+.ftk{margin: 10px;float: left;}
+
+.ipricefb{color: blue;}
+.ipricelk{color: rgb(72, 72, 155);}
+.ipricetw{color: rgb(163, 163, 244);}
+
+.tableprice1:hover .markprice1{color: rgb(143, 154, 24);}
+.tableprice1:hover .tom{color: #625e35;}
+.tableprice1:hover  .markprice{color: #35ac0d;}
+
+.tableprice1::after{position: absolute;
+      content:"";
+      width: 100%;
+      height:0;
+      top: 0;
+      left: 0;
+      background-color: #4bb72d;opacity: 0;}
+.tableprice1:hover::after{width: 100%;height: 100%;opacity: 0.4;transition: 1s;z-index: -1;}
+
+/* ,م--------------------------و */
+/* twelveth paper */
+.copyright{width: 100%;height: 405px;background-color: #76e258;}
+.imgfinal{margin: auto;}
+.fdiv{width: 60px;height: 60px;border-radius: 60px;background-color: #0b4f03;}
+.ffinal{margin: 18px;font-size: x-large;}
+.fdiv{float:left; margin: 15px 3px;}
+.iconfinal:hover{background-color: rgb(12, 12, 12);}
+.fdiv:hover{background-color: rgb(18, 148, 105);}
+.fffinal{margin: 70px 10px;font-weight: 700;}
+.dfinf{margin: auto;width: fit-content;height: 330px;padding: 50px 0px;}
+.imgimg{border-radius: 20px;}
+.iconfdiv{width: 400px;margin:0px -35px;}
+/* <___---------------------- */
+
+
+
+
+
+
